@@ -62,7 +62,7 @@ void move_piece(char from_col, int from_row, char to_col, int to_row) {
     board[from_row_index][from_col_index] = '.';
 }
 
-// Fungsi untuk meminta input gerakan dari pemain
+// Fungsi untuk meminta input gerakan dari pemain catur
 void get_move() {
     char from_col, to_col;
     int from_row, to_row;
@@ -78,10 +78,10 @@ int main() {
     setup_board();
     
     while (1) {
-        print_board(); // Menampilkan papan
-        get_move();    // Meminta input gerakan
+        print_board(); // Menampilkan papan catur
+        get_move();    // Meminta input gerakan catur
     }
     
     return 0;
 }
-￼Enter
+Enter
